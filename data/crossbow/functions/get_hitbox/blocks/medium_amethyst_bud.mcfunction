@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ minecraft:medium_amethyst_bud[facing=north] run data modify storage crossbow:main shape set value [[187500000, 187500000, 750000000, 812500000, 812500000, 1000000000]]
+execute if block ~ ~ ~ minecraft:medium_amethyst_bud[facing=east] run data modify storage crossbow:main shape set value [[0, 187500000, 187500000, 250000000, 812500000, 812500000]]
+execute if block ~ ~ ~ minecraft:medium_amethyst_bud[facing=south] run data modify storage crossbow:main shape set value [[187500000, 187500000, 0, 812500000, 812500000, 250000000]]
+execute if block ~ ~ ~ minecraft:medium_amethyst_bud[facing=west] run data modify storage crossbow:main shape set value [[750000000, 187500000, 187500000, 1000000000, 812500000, 812500000]]
+execute if block ~ ~ ~ minecraft:medium_amethyst_bud[facing=up] run data modify storage crossbow:main shape set value [[187500000, 0, 187500000, 812500000, 250000000, 812500000]]
+execute if block ~ ~ ~ minecraft:medium_amethyst_bud[facing=down] run data modify storage crossbow:main shape set value [[187500000, 750000000, 187500000, 812500000, 1000000000, 812500000]]

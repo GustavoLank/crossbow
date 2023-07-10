@@ -1,0 +1,25 @@
+{
+    "values": [
+        "minecraft:snow",
+        "minecraft:spore_blossom",
+        "#minecraft:stairs",
+        "#crossbow:stems",
+        "minecraft:stonecutter",
+        "#crossbow:sugar_cane_like",
+        "minecraft:sweet_berry_bush",
+        "#crossbow:torches",
+        "#minecraft:trapdoors",
+        "minecraft:tripwire_hook",
+        "minecraft:tripwire",
+        "minecraft:twisting_vines",
+        "minecraft:twisting_vines_plant",
+        "minecraft:vine",
+        "#crossbow:wall_heads_and_skulls",
+        "minecraft:piglin_wall_head",
+        "#minecraft:wall_signs",
+        "#crossbow:wall_torches",
+        "#minecraft:walls",
+        "minecraft:weeping_vines",
+        "minecraft:wheat"
+    ]
+}

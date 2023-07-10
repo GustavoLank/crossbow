@@ -1,0 +1,7 @@
+data modify storage crossbow:main shape set value [[187500000, 187500000, 187500000, 812500000, 812500000, 812500000]]
+execute if block ~ ~ ~ minecraft:chorus_plant[down=true] run data modify storage crossbow:main shape append value [187500000, 0, 187500000, 812500000, 187500000, 812500000]
+execute if block ~ ~ ~ minecraft:chorus_plant[up=true] run data modify storage crossbow:main shape append value [187500000, 187500000, 187500000, 812500000, 1000000000, 812500000]
+execute if block ~ ~ ~ minecraft:chorus_plant[west=true] run data modify storage crossbow:main shape append value [0, 187500000, 187500000, 187500000, 812500000, 812500000]
+execute if block ~ ~ ~ minecraft:chorus_plant[east=true] run data modify storage crossbow:main shape append value [812500000, 187500000, 187500000, 1000000000, 812500000, 812500000]
+execute if block ~ ~ ~ minecraft:chorus_plant[north=true] run data modify storage crossbow:main shape append value [187500000, 187500000, 0, 812500000, 812500000, 187500000]
+execute if block ~ ~ ~ minecraft:chorus_plant[south=true] run data modify storage crossbow:main shape append value [187500000, 187500000, 812500000, 812500000, 812500000, 1000000000]

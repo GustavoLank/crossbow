@@ -1,0 +1,8 @@
+execute if block ~ ~ ~ #crossbow:stems[age=0] run data modify storage crossbow:main shape set value [[437500000, 0, 437500000, 562500000, 125000000, 562500000]]
+execute if block ~ ~ ~ #crossbow:stems[age=1] run data modify storage crossbow:main shape set value [[437500000, 0, 437500000, 562500000, 250000000, 562500000]]
+execute if block ~ ~ ~ #crossbow:stems[age=2] run data modify storage crossbow:main shape set value [[437500000, 0, 437500000, 562500000, 375000000, 562500000]]
+execute if block ~ ~ ~ #crossbow:stems[age=3] run data modify storage crossbow:main shape set value [[437500000, 0, 437500000, 562500000, 500000000, 562500000]]
+execute if block ~ ~ ~ #crossbow:stems[age=4] run data modify storage crossbow:main shape set value [[437500000, 0, 437500000, 562500000, 625000000, 562500000]]
+execute if block ~ ~ ~ #crossbow:stems[age=5] run data modify storage crossbow:main shape set value [[437500000, 0, 437500000, 562500000, 750000000, 562500000]]
+execute if block ~ ~ ~ #crossbow:stems[age=6] run data modify storage crossbow:main shape set value [[437500000, 0, 437500000, 562500000, 875000000, 562500000]]
+execute if block ~ ~ ~ #crossbow:stems[age=7] run data modify storage crossbow:main shape set value [[437500000, 0, 437500000, 562500000, 1000000000, 562500000]]

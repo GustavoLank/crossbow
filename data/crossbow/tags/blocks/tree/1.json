@@ -1,0 +1,19 @@
+{
+    "values": [
+        "#minecraft:candles",
+        "#crossbow:carpet_like",
+        "minecraft:cauldron",
+        "#minecraft:campfires",
+        "minecraft:chain",
+        "#crossbow:chests",
+        "minecraft:chorus_plant",
+        "minecraft:cocoa",
+        "minecraft:composter",
+        "minecraft:conduit",
+        "#crossbow:coral_fans",
+        "#crossbow:coral_wall_fans",
+        "#crossbow:corals",
+        "minecraft:daylight_detector",
+        "#minecraft:doors"
+    ]
+}

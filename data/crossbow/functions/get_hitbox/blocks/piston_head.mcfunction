@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ minecraft:piston_head[facing=north] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 1000000000, 250000000], [375000000, 375000000, 250000000, 625000000, 625000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:piston_head[facing=east] run data modify storage crossbow:main shape set value [[750000000, 0, 0, 1000000000, 1000000000, 1000000000], [0, 375000000, 375000000, 750000000, 625000000, 625000000]]
+execute if block ~ ~ ~ minecraft:piston_head[facing=south] run data modify storage crossbow:main shape set value [[0, 0, 750000000, 1000000000, 1000000000, 1000000000], [375000000, 375000000, 0, 625000000, 625000000, 750000000]]
+execute if block ~ ~ ~ minecraft:piston_head[facing=west] run data modify storage crossbow:main shape set value [[0, 0, 0, 250000000, 1000000000, 1000000000], [250000000, 375000000, 375000000, 1000000000, 625000000, 625000000]]
+execute if block ~ ~ ~ minecraft:piston_head[facing=up] run data modify storage crossbow:main shape set value [[375000000, 0, 375000000, 625000000, 1000000000, 625000000], [0, 750000000, 0, 1000000000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:piston_head[facing=down] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 250000000, 1000000000], [375000000, 250000000, 375000000, 625000000, 1000000000, 625000000]]

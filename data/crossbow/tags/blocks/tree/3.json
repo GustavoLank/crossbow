@@ -1,0 +1,19 @@
+{
+    "values": [
+        "#crossbow:heads_and_skulls",
+        "minecraft:hopper",
+        "minecraft:ladder",
+        "#crossbow:lanterns",
+        "minecraft:large_amethyst_bud",
+        "minecraft:lectern",
+        "minecraft:lever",
+        "minecraft:lightning_rod",
+        "minecraft:lily_pad",
+        "minecraft:mangrove_propagule",
+        "minecraft:medium_amethyst_bud",
+        "minecraft:nether_sprouts",
+        "minecraft:nether_wart",
+        "minecraft:piglin_head",
+        "minecraft:piston_head"
+    ]
+}

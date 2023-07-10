@@ -1,0 +1,4 @@
+execute store success score #c32 crossbow if entity @s[distance=..0.000032]
+execute if score #c32 crossbow matches 0 run scoreboard players add #x crossbow 32
+execute if score #c32 crossbow matches 0 positioned ~0.000032 ~ ~ run function crossbow:get_values/x/15
+execute if score #c32 crossbow matches 1 run function crossbow:get_values/x/15

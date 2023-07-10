@@ -1,0 +1,22 @@
+scoreboard players set #hitbox crossbow 2
+execute if block ~ ~ ~ minecraft:snow run function crossbow:get_hitbox/blocks/snow
+execute if block ~ ~ ~ minecraft:spore_blossom run function crossbow:get_hitbox/blocks/spore_blossom
+execute if block ~ ~ ~ #minecraft:stairs run function crossbow:get_hitbox/blocks/stairs
+execute if block ~ ~ ~ #crossbow:stems run function crossbow:get_hitbox/blocks/stem
+execute if block ~ ~ ~ minecraft:stonecutter run function crossbow:get_hitbox/blocks/stonecutter
+execute if block ~ ~ ~ #crossbow:sugar_cane_like run function crossbow:get_hitbox/blocks/sugar_cane_like
+execute if block ~ ~ ~ minecraft:sweet_berry_bush run function crossbow:get_hitbox/blocks/sweet_berry_bush
+execute if block ~ ~ ~ #crossbow:torches run function crossbow:get_hitbox/blocks/torch
+execute if block ~ ~ ~ #minecraft:trapdoors run function crossbow:get_hitbox/blocks/trapdoor
+execute if block ~ ~ ~ minecraft:tripwire_hook run function crossbow:get_hitbox/blocks/tripwire_hook
+execute if block ~ ~ ~ minecraft:tripwire run function crossbow:get_hitbox/blocks/tripwire
+execute if block ~ ~ ~ minecraft:twisting_vines run function crossbow:get_hitbox/blocks/twisting_vines
+execute if block ~ ~ ~ minecraft:twisting_vines_plant run function crossbow:get_hitbox/blocks/twisting_vines_plant
+execute if block ~ ~ ~ minecraft:vine run function crossbow:get_hitbox/blocks/vine
+execute if block ~ ~ ~ #crossbow:wall_heads_and_skulls run function crossbow:get_hitbox/blocks/wall_head
+execute if block ~ ~ ~ minecraft:piglin_wall_head run function crossbow:get_hitbox/blocks/wall_piglin_head
+execute if block ~ ~ ~ #minecraft:wall_signs run function crossbow:get_hitbox/blocks/wall_sign
+execute if block ~ ~ ~ #crossbow:wall_torches run function crossbow:get_hitbox/blocks/wall_torch
+execute if block ~ ~ ~ #minecraft:walls run function crossbow:get_hitbox/blocks/wall
+execute if block ~ ~ ~ minecraft:weeping_vines run function crossbow:get_hitbox/blocks/weeping_vines
+execute if block ~ ~ ~ minecraft:wheat run function crossbow:get_hitbox/blocks/wheat

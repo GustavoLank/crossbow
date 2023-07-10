@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #crossbow:lanterns[hanging=false] run data modify storage crossbow:main shape set value [[312500000, 0, 312500000, 687500000, 437500000, 687500000],[375000000, 437500000, 375000000, 625000000, 562500000, 625000000]]
+execute if block ~ ~ ~ #crossbow:lanterns[hanging=true] run data modify storage crossbow:main shape set value [[312500000, 62500000, 312500000, 687500000, 500000000, 687500000],[375000000, 500000000, 375000000, 625000000, 625000000, 625000000]]

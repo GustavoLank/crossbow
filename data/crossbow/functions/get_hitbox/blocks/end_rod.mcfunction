@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ minecraft:end_rod[facing=north] run data modify storage crossbow:main shape set value [[375000000, 375000000, 0, 625000000, 625000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:end_rod[facing=east] run data modify storage crossbow:main shape set value [[0, 375000000, 375000000, 1000000000, 625000000, 625000000]]
+execute if block ~ ~ ~ minecraft:end_rod[facing=south] run data modify storage crossbow:main shape set value [[375000000, 375000000, 0, 625000000, 625000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:end_rod[facing=west] run data modify storage crossbow:main shape set value [[0, 375000000, 375000000, 1000000000, 625000000, 625000000]]
+execute if block ~ ~ ~ minecraft:end_rod[facing=up] run data modify storage crossbow:main shape set value [[375000000, 0, 375000000, 625000000, 1000000000, 625000000]]
+execute if block ~ ~ ~ minecraft:end_rod[facing=down] run data modify storage crossbow:main shape set value [[375000000, 0, 375000000, 625000000, 1000000000, 625000000]]

@@ -1,0 +1,5 @@
+data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 125000000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:rails[shape=ascending_east] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 500000000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:rails[shape=ascending_west] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 500000000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:rails[shape=ascending_north] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 500000000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:rails[shape=ascending_south] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 500000000, 1000000000]]

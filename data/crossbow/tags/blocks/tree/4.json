@@ -1,0 +1,19 @@
+{
+    "values": [
+        "#crossbow:pistons",
+        "minecraft:pointed_dripstone",
+        "#minecraft:pressure_plates",
+        "#minecraft:rails",
+        "minecraft:redstone_wire",
+        "#crossbow:repeater_like",
+        "#crossbow:sapling_like",
+        "minecraft:scaffolding",
+        "#crossbow:sculk_sensors",
+        "#crossbow:sculk_vein_like",
+        "minecraft:sea_pickle",
+        "#minecraft:signs",
+        "#minecraft:slabs",
+        "minecraft:small_amethyst_bud",
+        "#minecraft:small_flowers"
+    ]
+}

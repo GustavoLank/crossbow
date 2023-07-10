@@ -1,0 +1,7 @@
+execute if block ~ ~ ~ #crossbow:pistons[extended=false] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ #crossbow:pistons[facing=north,extended=true] run data modify storage crossbow:main shape set value [[0, 0, 250000000, 1000000000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ #crossbow:pistons[facing=east,extended=true] run data modify storage crossbow:main shape set value [[0, 0, 0, 750000000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ #crossbow:pistons[facing=south,extended=true] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 1000000000, 750000000]]
+execute if block ~ ~ ~ #crossbow:pistons[facing=west,extended=true] run data modify storage crossbow:main shape set value [[250000000, 0, 0, 1000000000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ #crossbow:pistons[facing=up,extended=true] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 750000000, 1000000000]]
+execute if block ~ ~ ~ #crossbow:pistons[facing=down,extended=true] run data modify storage crossbow:main shape set value [[0, 250000000, 0, 1000000000, 1000000000, 1000000000]]

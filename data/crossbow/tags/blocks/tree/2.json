@@ -1,0 +1,19 @@
+{
+    "values": [
+        "minecraft:enchanting_table",
+        "minecraft:end_portal_frame",
+        "minecraft:end_rod",
+        "#crossbow:farmland_like",
+        "#minecraft:small_flowers",
+        "#crossbow:flower_pot_like",
+        "#minecraft:fences",
+        "minecraft:fire",
+        "#minecraft:fence_gates",
+        "minecraft:frogspawn",
+        "#crossbow:fungus",
+        "#crossbow:glass_pane_like",
+        "#crossbow:grass_like",
+        "minecraft:grindstone",
+        "minecraft:hanging_roots"
+    ]
+}

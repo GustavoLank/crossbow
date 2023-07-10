@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ #minecraft:trapdoors[half=bottom,open=false] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 187500000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:trapdoors[half=top,open=false] run data modify storage crossbow:main shape set value [[0, 812500000, 0, 1000000000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:trapdoors[facing=west,open=true] run data modify storage crossbow:main shape set value [[812500000, 0, 0, 1000000000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:trapdoors[facing=east,open=true] run data modify storage crossbow:main shape set value [[0, 0, 0, 187500000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:trapdoors[facing=north,open=true] run data modify storage crossbow:main shape set value [[0, 0, 812500000, 1000000000, 1000000000, 1000000000]]
+execute if block ~ ~ ~ #minecraft:trapdoors[facing=south,open=true] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 1000000000, 187500000]]

@@ -1,0 +1,8 @@
+data modify storage crossbow:main shape set value []
+execute if block ~ ~ ~ #crossbow:sculk_vein_like[down=true] run data modify storage crossbow:main shape append value [0, 0, 0, 1000000000, 62500000, 1000000000]
+execute if block ~ ~ ~ #crossbow:sculk_vein_like[up=true] run data modify storage crossbow:main shape append value [0, 937500000, 0, 1000000000, 1000000000, 1000000000]
+execute if block ~ ~ ~ #crossbow:sculk_vein_like[east=true] run data modify storage crossbow:main shape append value [937500000, 0, 0, 1000000000, 1000000000, 1000000000]
+execute if block ~ ~ ~ #crossbow:sculk_vein_like[west=true] run data modify storage crossbow:main shape append value [0, 0, 0, 62500000, 1000000000, 1000000000]
+execute if block ~ ~ ~ #crossbow:sculk_vein_like[south=true] run data modify storage crossbow:main shape append value [0, 0, 937500000, 1000000000, 1000000000, 1000000000]
+execute if block ~ ~ ~ #crossbow:sculk_vein_like[north=true] run data modify storage crossbow:main shape append value [0, 0, 0, 1000000000, 1000000000, 62500000]
+execute if block ~ ~ ~ #crossbow:sculk_vein_like[down=false,up=false,east=false,west=false,south=false,north=false] run data modify storage crossbow:main shape append value [0, 0, 0, 1000000000, 1000000000, 1000000000]

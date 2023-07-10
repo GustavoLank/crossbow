@@ -1,0 +1,7 @@
+data modify storage crossbow:main shape set value []
+execute if block ~ ~ ~ minecraft:fire[up=true] run data modify storage crossbow:main shape append value [0, 937500000, 0, 1000000000, 1000000000, 1000000000]
+execute if block ~ ~ ~ minecraft:fire[east=true] run data modify storage crossbow:main shape append value [937500000, 0, 0, 1000000000, 1000000000, 1000000000]
+execute if block ~ ~ ~ minecraft:fire[west=true] run data modify storage crossbow:main shape append value [0, 0, 0, 62500000, 1000000000, 1000000000]
+execute if block ~ ~ ~ minecraft:fire[south=true] run data modify storage crossbow:main shape append value [0, 0, 937500000, 1000000000, 1000000000, 1000000000]
+execute if block ~ ~ ~ minecraft:fire[north=true] run data modify storage crossbow:main shape append value [0, 0, 0, 1000000000, 1000000000, 62500000]
+execute if block ~ ~ ~ minecraft:fire[up=false,east=false,west=false,south=false,north=false] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 62500000, 1000000000]]

@@ -1,0 +1,8 @@
+execute if block ~ ~ ~ minecraft:snow[layers=1] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 125000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:snow[layers=2] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 250000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:snow[layers=3] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 375000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:snow[layers=4] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 500000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:snow[layers=5] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 625000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:snow[layers=6] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 750000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:snow[layers=7] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 875000000, 1000000000]]
+execute if block ~ ~ ~ minecraft:snow[layers=8] run data modify storage crossbow:main shape set value [[0, 0, 0, 1000000000, 1000000000, 1000000000]]

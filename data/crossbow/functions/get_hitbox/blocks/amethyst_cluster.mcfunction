@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ minecraft:amethyst_cluster[facing=north] run data modify storage crossbow:main shape set value [[187500000, 187500000, 562500000, 812500000, 812500000, 1000000000]]
+execute if block ~ ~ ~ minecraft:amethyst_cluster[facing=east] run data modify storage crossbow:main shape set value [[0, 187500000, 187500000, 437500000, 812500000, 812500000]]
+execute if block ~ ~ ~ minecraft:amethyst_cluster[facing=south] run data modify storage crossbow:main shape set value [[187500000, 187500000, 0, 812500000, 812500000, 437500000]]
+execute if block ~ ~ ~ minecraft:amethyst_cluster[facing=west] run data modify storage crossbow:main shape set value [[562500000, 187500000, 187500000, 1000000000, 812500000, 812500000]]
+execute if block ~ ~ ~ minecraft:amethyst_cluster[facing=up] run data modify storage crossbow:main shape set value [[187500000, 0, 187500000, 812500000, 437500000, 812500000]]
+execute if block ~ ~ ~ minecraft:amethyst_cluster[facing=down] run data modify storage crossbow:main shape set value [[187500000, 562500000, 187500000, 812500000, 1000000000, 812500000]]
